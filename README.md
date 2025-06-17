@@ -1,31 +1,31 @@
-# 📊 NYC Small Business Data Analysis (ETL Project)
+# NYC Small Business Data Analysis (ETL Project)
 
 This project implements an end-to-end **ETL pipeline** using **SSIS (SQL Server Integration Services)** to analyze small business data in New York City, with a focus on **Women- and Minority-Owned Business Enterprises (WBE/MBE)**. It includes data transformation, dimensional modeling, SQL querying, and reporting.
 
 ---
 
-## 📁 Project Files
+## Project Files
 
-### 🔧 SSIS Project Files
+### SSIS Project Files
 - `Project_PRJ.dtproj` – SSIS project definition
 - `Project.dtsx` – ETL data flow and control flow
 - `Project.params` – Project-level parameters
 - `Project_PRJ.database` – Target database settings
 - `Project_PRJ.dtproj.user` – User-specific project config (optional)
 
-### 📄 Documentation & Reports
+### Documentation & Reports
 - `presentation.pptx` – Slide deck covering goals, workflow, results
 
-### 🗃️ Data & Scripts
+###  Data & Scripts
 - `Introducing Keys.csv` – Source/raw data
 - `SQLQuery48.sql` – Business case queries (WBE, MBE, borough-level filtering, contract ranking)
 
-### 🖼️ Results
+### Results
 - `screenshots/` – Visual outputs and query result screenshots (to be uploaded)
 
 ---
 
-## 🔄 ETL Workflow Summary
+## ETL Workflow Summary
 
 1. **Data Cleaning**:
    - Removed NULLs, duplicates, improper formats
@@ -44,7 +44,7 @@ This project implements an end-to-end **ETL pipeline** using **SSIS (SQL Server 
 
 ---
 
-## 💻 Tools Used
+## Tools Used
 - **SSIS** (SQL Server Integration Services)
 - **SSMS** (SQL Server Management Studio)
 - **Excel** (for early data inspection)
@@ -52,7 +52,7 @@ This project implements an end-to-end **ETL pipeline** using **SSIS (SQL Server 
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 Result images and SQL output examples are in the [`screenshots/`](./screenshots) folder.
 
 ---
